@@ -8,7 +8,7 @@ class ComposerStaticInit4676389bb117a6efb1545b2767f4d0cb
 {
     public static $files = array (
         'd56df8ae580a52e67e59a9137277f115' => __DIR__ . '/..' . '/annmm85/collect/src/helpers.php',
-        'd3a822f6841966d3a48dd5f90a9b21ba' => __DIR__ . '/../..' . '/../src/helpers.php',
+        '2dff601e1fade622fb67c55b8af271f9' => __DIR__ . '/../..' . '/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -25,7 +25,7 @@ class ComposerStaticInit4676389bb117a6efb1545b2767f4d0cb
     public static $prefixDirsPsr4 = array (
         'Validatecollect\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/../src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Collect\\' => 
         array (

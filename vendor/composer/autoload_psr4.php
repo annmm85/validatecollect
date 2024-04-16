@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Validatecollect\\' => array($baseDir . '/../src'),
+    'Validatecollect\\' => array($baseDir . '/src'),
     'Collect\\' => array($vendorDir . '/annmm85/collect/src'),
 );
