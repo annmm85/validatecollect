@@ -7,12 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit4676389bb117a6efb1545b2767f4d0cb
 {
     public static $files = array (
-        '5c6b188ede5e672f96b43ba5b67dcf60' => __DIR__ . '/../..' . '/src/DaterValidator.php',
-        'e4e1036d011ff8cf3e540d102687795d' => __DIR__ . '/../..' . '/src/LanguageValidator.php',
-        '4820fb0be07fef0d6cb551a964ccb0e8' => __DIR__ . '/../..' . '/src/NumberValidator.php',
-        '2265355fb15c37259497f8a0775c61b4' => __DIR__ . '/../..' . '/src/RequireValidator.php',
-        '7f057312fda5d9e7adb9637fc6207119' => __DIR__ . '/../..' . '/src/UniqueValidator.php',
-        'bb0e4b5706d9c5bffcc6cb2eeb702100' => __DIR__ . '/../..' . '/src/UniqValidator.php',
+        'd56df8ae580a52e67e59a9137277f115' => __DIR__ . '/..' . '/annmm85/collect/src/helpers.php',
+        'd3a822f6841966d3a48dd5f90a9b21ba' => __DIR__ . '/../..' . '/../src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -20,12 +16,20 @@ class ComposerStaticInit4676389bb117a6efb1545b2767f4d0cb
         array (
             'Validatecollect\\' => 16,
         ),
+        'C' => 
+        array (
+            'Collect\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Validatecollect\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/../src',
+        ),
+        'Collect\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/annmm85/collect/src',
         ),
     );
 

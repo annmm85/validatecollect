@@ -11,19 +11,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4 | ^8.0"
+        "php": "^7.4 | ^8.0",
+        "annmm85/collect": "dev-main"
     },
     "autoload": {
         "psr-4": {
-            "Validatecollect\\": "src/"
+            "Validatecollect\\": "../src/"
         },
         "files": [
-            "src/DaterValidator.php",
-            "src/LanguageValidator.php",
-            "src/NumberValidator.php",
-            "src/RequireValidator.php",
-            "src/UniqueValidator.php",
-            "src/UniqValidator.php"
+            "../src/helpers.php"
         ]
     }
 }
