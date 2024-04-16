@@ -3,7 +3,7 @@
         'name' => 'annmm85/validatecollect',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'd78f16a27c5ce931da40ff095ef79f91d8d0103e',
+        'reference' => 'd711e299a8b2e8a281598e5f0f92ebb64835547b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -24,7 +24,7 @@
         'annmm85/validatecollect' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'd78f16a27c5ce931da40ff095ef79f91d8d0103e',
+            'reference' => 'd711e299a8b2e8a281598e5f0f92ebb64835547b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
