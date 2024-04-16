@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "annmm85/collect",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/annmm85/collect.git",
+                "reference": "a9fc4c841cdc51d92cb7a62bcaf461c943d1a1aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/annmm85/collect/zipball/a9fc4c841cdc51d92cb7a62bcaf461c943d1a1aa",
+                "reference": "a9fc4c841cdc51d92cb7a62bcaf461c943d1a1aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.0"
+            },
+            "time": "2024-04-16T03:13:43+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Collect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "annmm85",
+                    "email": "8mona854@gmail.com"
+                }
+            ],
+            "description": "Module for working with arrays",
+            "support": {
+                "issues": "https://github.com/annmm85/collect/issues",
+                "source": "https://github.com/annmm85/collect/tree/main"
+            },
+            "install-path": "../annmm85/collect"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
