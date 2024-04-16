@@ -16,10 +16,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Validatecollect\\": "../src/"
+            "Validatecollect\\": "src/"
         },
         "files": [
-            "../src/helpers.php"
+            "src/helpers.php"
         ]
     }
 }
